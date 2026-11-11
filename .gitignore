@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+*.egg-info/
+
+# Environments and secrets
+.venv/
+.env
+.env.*
+
+# Tooling
+.ipynb_checkpoints/
+.vscode/
+.idea/
+.databricks/
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Data and outputs: never committed (folders kept via .gitkeep)
+data/*
+!data/.gitkeep
+outputs/*
+!outputs/.gitkeep
